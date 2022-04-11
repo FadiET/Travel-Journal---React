@@ -1,0 +1,134 @@
+.body{
+    display: flex;
+    
+    text-align: center;
+}
+/* Header Styling */
+.headerBar {
+    background-color: #F55A5A;
+    color: white;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+}
+
+.headBar--photo {
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 50px);
+    top: calc(50% - 24px/2 - 324px);
+    
+   /* width: 24px;
+    height: 24px;
+    margin-right: 15px;*/
+    background-color: #F55A5A;
+}
+
+.headerBar > h2 {
+    background-color: #F55A5A;
+}
+
+.card {
+    display:flex;
+    max-width: 550px;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.photo {
+    object-fit:cover;
+    width: 125px;
+    height: 168px;
+    left: 40px;
+    top: 100px;  
+    border-radius: 5px;
+}
+
+.details {
+    padding-left:10px;
+    /*border:1px solid black;*/
+    margin: 19px;
+    height: 165px;
+}
+
+.location {
+    padding-bottom: 10px;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+     
+
+    
+}
+
+.location > img {
+    width: 7px;
+    height: 9.55px;
+    left: calc(50% - 7px/2 - 87.5px);
+    top: calc(50% - 9.55px/2 - 227.23px);
+    background: #DADADA;
+}
+
+.title {
+    padding-bottom:10px;
+    margin-top:-0.5em;
+    margin-bottom:  -0.5em;
+}
+
+.date{
+ margin-top:1.5em;
+ margin-bottom: 1em   
+}
+.description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A
+}
+.map {
+    margin-left :0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.googleMaps {
+    
+    font-family: 'Inter';
+    font-style: normal;  
+    margin-left:10px;
+    color: darkgray;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: .10em;
+    text-transform: none;
+    
+}
+a:link , a:visited{
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration:underline;
+    color: darkgray;
+    
+}
+hr {
+    margin: 2em 0;
+    border: 1px solid #F5F5F5;
+    height: 0;
+}
